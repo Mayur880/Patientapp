@@ -1,0 +1,71 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.navbar{
+background-color: rgb(247, 255, 173);}
+.Employee{
+    font-family: 'Rubik', sans-serif;
+    font-size:2 rem;
+    color: black;
+    margin-right:5px;
+}
+.Employee:hover{
+    color: rgb(179, 36, 36);
+}
+.nav-link{
+    margin-right: 40px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover{
+    color:rgb(62, 129, 216)
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(26, 189, 83);
+    margin-right: -35px;
+
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border:none;
+    background-color:rgb(26, 189, 83);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background: url(./img/p1.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 400;
+    /* font-family: 'Times New Roman', Times, serif; */
+    color:rgb(0, 0, 1);
+
+}
+.btn1{
+    height: 45px;
+    width: 25%;
+    border: none;
+    outline: none;
+    background-color: rgb(247, 68, 68);
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 60px;
+
+}

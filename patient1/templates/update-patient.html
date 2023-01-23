@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content%}
+<main class="container">
+    <h3 class="my-3">Add Patient <a href="/" class="float-end btn btn-sm btn-success mt-2">Patient List</a></h3>
+<!--     {% if messages.success %}-->
+    {%  for msg in messages %}
+    <p class="text-success">{{msg}}</p>
+    {% endfor %}
+<!--    {% endif %}-->
+
+<!--    {% if messages.error %}-->
+<!--    {%  for msg in messages %}-->
+<!--    <p class="text-danger">{{msg}}</p>-->
+<!--    {% endfor %}-->
+<!--    {% endif %}-->
+
+
+    <form method="post" action="">
+            {% csrf_token %}
+        <table class="table table-bordered">
+            {{form.as_table}}
+
+            <tr>
+                <td colspan="2"><input type="submit" class
+                ="btn btn-primary" value="submit"></td>
+            </tr>
+        </table>
+    </form>
+
+</main>
+{% endblock %}
